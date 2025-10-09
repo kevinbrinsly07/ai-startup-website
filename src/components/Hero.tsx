@@ -1,5 +1,6 @@
 import React from "react";
 import PurpleGradientBlur from "./PurpleGradientBlur";
+import DarkGradientSection from "./DarkGradientSection";
 import Image from "next/image";
 import site from "../../public/Hero/site.svg";
 
@@ -34,7 +35,7 @@ export default function hero() {
               technology meets user-friendly SEO tools.
             </p>
           </div>
-          <div className="w-[121px] h-[41px] bg-[#FFFFFF] text-[#000000] rounded-[8px] font-semibold flex justify-center items-center mt-5 z-40">
+          <div className="w-[121px] h-[41px] bg-[#FFFFFF] text-[#000000] rounded-[8px] font-semibold flex justify-center items-center mt-5 z-40 cursor-pointer">
             Start for free
           </div>
         </div>
@@ -56,6 +57,9 @@ export default function hero() {
             <Image src={site} alt="site" className="rounded-2xl" />
           </div>
         </div>
+      </div>
+      <div className="-mt-[200px] w-full h-[408px] z-80">
+        <DarkGradientSection />
       </div>
     </div>
   );
