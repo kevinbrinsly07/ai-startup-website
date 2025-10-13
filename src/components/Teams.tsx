@@ -11,40 +11,40 @@ import logo8 from "../../public/Teams/logo8.svg";
 
 export default function Teams() {
   return (
-    <div className="flex flex-col justify-center items-center py-20 bg-black">
+    <div className="flex flex-col justify-center items-center py-20 bg-black xl:px-0 px-10">
       <div className="max-w-[1000px] w-full text-[#a88585] text-center flex flex-col justify-center items-center">
         <h1 className="text-[#FFFFFF]/[70%] text-lg font-xl">
           Trusted by the world’s most innovative teams
         </h1>
         {/* brands section */}
-        <div className="max-w-[965px] w-full flex flex-col gap-3 mt-10">
+        <div className="max-w-[965px] w-full flex xl:flex-col flex-row gap-3 mt-10">
           {/* 1st row */}
-          <div className="flex flex-row justify-between">
-            <div className="w-[235px] h-[98px] border-[1px] border-[#FFFFFF]/[15%] rounded-[10px] flex justify-center items-center">
+          <div className="flex xl:flex-row flex-col justify-between">
+            <div className="xl:w-[235px] w-full h-[98px] border-[1px] border-[#FFFFFF]/[15%] rounded-[10px] flex justify-center items-center p-3">
               <Image src={logo1} alt="logo" />
             </div>
-            <div className="w-[235px] h-[98px] border-[1px] border-[#FFFFFF]/[15%] rounded-[10px] flex justify-center items-center">
+            <div className="xl:w-[235px] w-full h-[98px] border-[1px] border-[#FFFFFF]/[15%] rounded-[10px] flex justify-center items-center p-3">
               <Image src={logo2} alt="logo" />
             </div>
-            <div className="w-[235px] h-[98px] border-[1px] border-[#FFFFFF]/[15%] rounded-[10px] flex justify-center items-center">
+            <div className="xl:w-[235px] w-full h-[98px] border-[1px] border-[#FFFFFF]/[15%] rounded-[10px] flex justify-center items-center p-3">
               <Image src={logo3} alt="logo" />
             </div>
-            <div className="w-[235px] h-[98px] border-[1px] border-[#FFFFFF]/[15%] rounded-[10px] flex justify-center items-center">
+            <div className="xl:w-[235px] w-full h-[98px] border-[1px] border-[#FFFFFF]/[15%] rounded-[10px] flex justify-center items-center p-3">
               <Image src={logo4} alt="logo" />
             </div>
           </div>
           {/* 2nd row  */}
-          <div className="flex flex-row justify-between">
-            <div className="w-[235px] h-[98px] border-[1px] border-[#FFFFFF]/[15%] rounded-[10px] flex justify-center items-center">
+          <div className="flex xl:flex-row flex-col justify-between">
+            <div className="xl:w-[235px] w-full h-[98px] border-[1px] border-[#FFFFFF]/[15%] rounded-[10px] flex justify-center items-center p-3">
               <Image src={logo5} alt="logo" />
             </div>
-            <div className="w-[235px] h-[98px] border-[1px] border-[#FFFFFF]/[15%] rounded-[10px] flex justify-center items-center">
+            <div className="xl:w-[235px] w-full h-[98px] border-[1px] border-[#FFFFFF]/[15%] rounded-[10px] flex justify-center items-center p-3">
               <Image src={logo6} alt="logo" />
             </div>
-            <div className="w-[235px] h-[98px] border-[1px] border-[#FFFFFF]/[15%] rounded-[10px] flex justify-center items-center">
+            <div className="xl:w-[235px] w-full h-[98px] border-[1px] border-[#FFFFFF]/[15%] rounded-[10px] flex justify-center items-center p-3">
               <Image src={logo7} alt="logo" />
             </div>
-            <div className="w-[235px] h-[98px] border-[1px] border-[#FFFFFF]/[15%] rounded-[10px] flex justify-center items-center">
+            <div className="xl:w-[235px] w-full h-[98px] border-[1px] border-[#FFFFFF]/[15%] rounded-[10px] flex justify-center items-center p-3">
               <Image src={logo8} alt="logo" />
             </div>
           </div>

@@ -6,9 +6,9 @@ import site from "../../public/Hero/site.svg";
 
 export default function hero() {
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col justify-center items-center px-10 xl:px-0">
       <div className="max-w-[1000px] w-full">
-        <div className="mt-40 flex flex-col items-center z-20">
+        <div className="xl:mt-40 mt-20 flex flex-col items-center z-20">
           <div className="w-[291px] h-[42px] bg-[#000000] rounded-[50px] border-[1px] flex flex-row gap-5 justify-center px-4 py-1 items-center border-[#9855FF]">
             <div className="w-[34px] h-[18px] text-sm rounded-[40px] bg-[#9855FF] text-[#000000] font-bold flex justify-center items-center">
               NEW
@@ -18,7 +18,7 @@ export default function hero() {
             </h1>
           </div>
           <div>
-            <h1 className="text-[100px]/[90%] text-center font-semibold mt-5">
+            <h1 className="xl:text-[100px]/[90%] text-[50px]/[90%] text-center font-semibold mt-5">
               Boost your <br />{" "}
               <span
                 className="font-bold text-transparent 
@@ -29,8 +29,8 @@ export default function hero() {
               </span>
             </h1>
           </div>
-          <div className="max-w-[544px] w-full mt-10 z-40">
-            <p className="text-[20px] text-center">
+          <div className="xl:max-w-[544px] max-w-[250px] w-full mt-10 z-40">
+            <p className="xl:text-[20px] text-[14px] text-center">
               Elevate your site’s visibility effortlessly with AI, where smart
               technology meets user-friendly SEO tools.
             </p>
@@ -39,7 +39,7 @@ export default function hero() {
             Start for free
           </div>
         </div>
-        <div className="absolute top-[600px] left-1/2 -translate-x-1/2 ">
+        <div className="xl:absolute hidden top-[600px] left-1/2 -translate-x-1/2 ">
           <PurpleGradientBlur />
         </div>
         <div className="relative z-50 mt-30 w-full h-full bg-black rounded-2xl overflow-visible">

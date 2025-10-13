@@ -8,14 +8,14 @@ import chart from "../../public/specs/chart.svg";
 
 export default function Specs() {
   return (
-    <div className="flex flex-col justify-center items-center py-20 bg-black">
+    <div className="flex flex-col justify-center items-center py-20 bg-black xl:px-0 px-10">
       <div className="max-w-[1300px] w-full flex flex-col justify-center items-center">
-        <h1 className="text-center text-[32px]/[100%] max-w-[553px] font-2xl mt-20">
+        <h1 className="text-center xl:text-[32px]/[100%] text-[24px]/[100%] xl:max-w-[553px] max-w-[300px] font-2xl mt-20">
           Harness the power of AI, making search engine optimization intuitive
           and effective for all skill levels.
         </h1>
-        <div className="mt-10 flex flex-row justify-between max-w-[1100px] w-full">
-          <div className="w-[346px] h-[400px] bg-[#000000]/[6%] border-[1px] border-[#FFFFFF]/[15%] rounded-[10px] flex flex-col justify-between items-center px-10 pb-10">
+        <div className="mt-10 flex xl:flex-row flex-col justify-between max-w-[1100px] w-full">
+          <div className="xl:w-[346px] w-full h-[400px] bg-[#000000]/[6%] border-[1px] border-[#FFFFFF]/[15%] rounded-[10px] flex flex-col justify-between items-center px-10 pb-10">
             <Image src={ring} alt="ring" />
             <div className="text-start text-xl font-semibold">
               <h1>SEO goal setting</h1>
@@ -24,7 +24,7 @@ export default function Specs() {
               </h1>
             </div>
           </div>
-          <div className="w-[744px] h-[400px] border-[1px] border-[#FFFFFF]/[10%] rounded-[10px] relative overflow-hidden">
+          <div className="xl:w-[744px] w-full h-[400px] xl:h-[400px] border-[1px] border-[#FFFFFF]/[10%] rounded-[10px] relative overflow-hidden">
             <Image
               src={site}
               alt="site"
@@ -42,8 +42,8 @@ export default function Specs() {
           </div>
         </div>
 
-        <div className="mt-5 flex flex-row justify-between max-w-[1100px] w-full">
-          <div className="w-[744px] h-[400px] border-[1px] border-[#FFFFFF]/[10%] rounded-[10px] relative overflow-hidden">
+        <div className="mt-5 flex xl:flex-row flex-col justify-between max-w-[1100px] w-full">
+          <div className="xl:w-[744px] w-full h-[400px] xl:h-[400px] border-[1px] border-[#FFFFFF]/[10%] rounded-[10px] relative overflow-hidden">
             <Image
               src={chart}
               alt="site"
@@ -58,7 +58,7 @@ export default function Specs() {
               </h1>
             </div>
           </div>
-          <div className="w-[346px] h-[400px] bg-[#000000]/[6%] border-[1px] border-[#FFFFFF]/[15%] rounded-[10px] flex flex-col justify-between items-center px-10 pb-10">
+          <div className="xl:w-[346px] w-full xl:h-[400px] bg-[#000000]/[6%] border-[1px] border-[#FFFFFF]/[15%] rounded-[10px] flex flex-col justify-between items-center px-10 pb-10">
             <Image src={cube} alt="ring" />
             <div className="text-start text-xl font-semibold">
               <h1>Smart Keyword Generator</h1>

@@ -12,15 +12,15 @@ import icon9 from "../../public/seo/icon9.svg";
 
 export default function SEO() {
   return (
-    <div className="flex flex-col items-center justify-center bg-gradient-to-r from-[#190D2E] to-#020103] py-40">
+    <div className="flex flex-col items-center justify-center bg-gradient-to-r from-[#190D2E] to-#020103] py-40 xl:px-0 px-10">
       <div className="max-w-[1100px] w-full mt-10">
         <h1 className="text-[50px]/[110%] font-medium max-w-[354px]">
           Elevate your SEO efforts.
         </h1>
-        <div className="mt-10 grid grid-cols-3">
+        <div className="mt-10 grid xl:grid-cols-3 grid-cols-1">
           {/* 1st */}
           <div>
-            <div className="flex flex-row gap-3">
+            <div className="flex flex-row gap-3 mt-10">
               <Image src={icon1} alt="icon" />
               <h1 className="text-2xl font-semibold">
                 User-friendly dashboard
@@ -33,7 +33,7 @@ export default function SEO() {
           </div>
           {/* 2nd */}
           <div>
-            <div className="flex flex-row gap-3">
+            <div className="flex flex-row gap-3 mt-10">
               <Image src={icon2} alt="icon" />
               <h1 className="text-2xl font-semibold">Visual reports</h1>
             </div>
@@ -43,7 +43,7 @@ export default function SEO() {
           </div>
           {/* 3rd */}
           <div>
-            <div className="flex flex-row gap-3">
+            <div className="flex flex-row gap-3 mt-10">
               <Image src={icon3} alt="icon" />
               <h1 className="text-2xl font-semibold">
                 Smart Keyword Generator
