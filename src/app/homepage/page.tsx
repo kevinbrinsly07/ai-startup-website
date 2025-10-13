@@ -7,6 +7,7 @@ import SEO from "@/components/SEO";
 import Clients from "@/components/Clients";
 import Pricing from "@/components/Pricing";
 import ForEveryone from "@/components/ForEveryone";
+import Footer from "@/components/Footer";
 
 const page = () => {
   return (
@@ -19,6 +20,7 @@ const page = () => {
       <Clients />
       <Pricing />
       <ForEveryone />
+      <Footer />
     </div>
   );
 };
