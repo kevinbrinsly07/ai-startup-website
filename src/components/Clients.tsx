@@ -5,7 +5,7 @@ import PurpleGradientBlurTwo from "./PurpleGradientBlurTwo";
 
 export default function Clients() {
   return (
-    <div className="flex flex-col justify-center items-center py-20">
+    <div className="flex flex-col justify-center items-center py-20 bg-black">
       <div className="max-w-[1300px] w-full text-center flex flex-col justify-center items-center">
         <h1 className="text-7xl font-semibold">Our Clients</h1>
         <p className="text-2xl font-medium max-w-[433px] w-full mt-5">

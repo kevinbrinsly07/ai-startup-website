@@ -8,7 +8,7 @@ import chart from "../../public/specs/chart.svg";
 
 export default function Specs() {
   return (
-    <div className="flex flex-col justify-center items-center py-20">
+    <div className="flex flex-col justify-center items-center py-20 bg-black">
       <div className="max-w-[1300px] w-full flex flex-col justify-center items-center">
         <h1 className="text-center text-[32px]/[100%] max-w-[553px] font-2xl mt-20">
           Harness the power of AI, making search engine optimization intuitive

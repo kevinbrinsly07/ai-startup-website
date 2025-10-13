@@ -7,7 +7,7 @@ import site from "../../public/Hero/site.svg";
 export default function hero() {
   return (
     <div className="flex flex-col justify-center items-center">
-      <div className="max-w-[1300px]">
+      <div className="max-w-[1000px] w-full">
         <div className="mt-40 flex flex-col items-center z-20">
           <div className="w-[291px] h-[42px] bg-[#000000] rounded-[50px] border-[1px] flex flex-row gap-5 justify-center px-4 py-1 items-center border-[#9855FF]">
             <div className="w-[34px] h-[18px] text-sm rounded-[40px] bg-[#9855FF] text-[#000000] font-bold flex justify-center items-center">

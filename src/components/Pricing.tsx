@@ -5,7 +5,7 @@ import PurpleGradientBlurThree from "./PurpleGradientBlurThree";
 
 export default function Pricing() {
   return (
-    <div className="flex flex-col justify-center items-center py-20">
+    <div className="flex flex-co relative justify-center items-center py-20 bg-black -z-20">
       <div className="max-w-[1300px] w-full text-center flex flex-col justify-center items-center">
         <h1 className="text-7xl font-semibold">Pricing</h1>
         <p className="text-2xl font-medium max-w-[433px] w-full mt-5">
@@ -83,7 +83,7 @@ export default function Pricing() {
               Join waitlist
             </div>
             <div className="w-full h-full top-0 absolute left-0 rounded-[10px] bg-gradient-to-b from-[#000000] via-[#000000]/70 to-transparent z-0" />
-            <div className="w-full h-full top-0 absolute left-0 rounded-[10px] grid grid-cols-5 grid-rows-7 -z-10">
+            <div className="w-full h-full top-0 absolute left-0 rounded-[10px] grid grid-cols-5 -z-10">
               <div className="border-[1px] border-[#8C45FF]/[40%] border-dotted rounded-tl-[10px]" />
               <div className="border-[1px] border-[#8C45FF]/[40%] border-dotted" />
               <div className="border-[1px] border-[#8C45FF]/[40%] border-dotted" />
@@ -114,6 +114,12 @@ export default function Pricing() {
               <div className="border-[1px] border-[#8C45FF]/[40%] border-dotted" />
               <div className="border-[1px] border-[#8C45FF]/[40%] border-dotted" />
 
+              <div className="border-[1px] border-[#8C45FF]/[40%] border-dotted" />
+              <div className="border-[1px] border-[#8C45FF]/[40%] border-dotted" />
+              <div className="border-[1px] border-[#8C45FF]/[40%] border-dotted" />
+              <div className="border-[1px] border-[#8C45FF]/[40%] border-dotted" />
+              <div className="border-[1px] border-[#8C45FF]/[40%] border-dotted" />
+              
               <div className="border-[1px] border-[#8C45FF]/[40%] border-dotted" />
               <div className="border-[1px] border-[#8C45FF]/[40%] border-dotted" />
               <div className="border-[1px] border-[#8C45FF]/[40%] border-dotted" />

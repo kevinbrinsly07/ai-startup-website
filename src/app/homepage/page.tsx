@@ -6,6 +6,7 @@ import Specs from "@/components/Specs";
 import SEO from "@/components/SEO";
 import Clients from "@/components/Clients";
 import Pricing from "@/components/Pricing";
+import ForEveryone from "@/components/ForEveryone";
 
 const page = () => {
   return (
@@ -17,6 +18,7 @@ const page = () => {
       <SEO />
       <Clients />
       <Pricing />
+      <ForEveryone />
     </div>
   );
 };

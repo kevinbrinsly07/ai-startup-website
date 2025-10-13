@@ -11,7 +11,7 @@ import logo8 from "../../public/Teams/logo8.svg";
 
 export default function Teams() {
   return (
-    <div className="flex flex-col justify-center items-center bg-black">
+    <div className="flex flex-col justify-center items-center py-20 bg-black">
       <div className="max-w-[1000px] w-full text-[#a88585] text-center flex flex-col justify-center items-center">
         <h1 className="text-[#FFFFFF]/[70%] text-lg font-xl">
           Trusted by the world’s most innovative teams
