@@ -18,7 +18,7 @@ export default function ForEveryone() {
             </div>
           </div>
           <div className="w-full h-full absolute rounded-[10px] bg-gradient-to-b from-transparent via-black/70 to-[#020103] z-10" />
-          <div className="xl:absolute hidden left-1/2 -translate-x-1/2 -top-40 z-5">
+          <div className="absolute xl:block hidden left-1/2 -translate-x-1/2 -top-40 z-5">
             <PurpleGradientBlurFour />
           </div>
           <div className="absolute top-0 left-0 w-full h-full grid grid-cols-11 -z-10">

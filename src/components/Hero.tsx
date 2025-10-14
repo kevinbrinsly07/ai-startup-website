@@ -39,7 +39,7 @@ export default function hero() {
             Start for free
           </div>
         </div>
-        <div className="xl:absolute hidden top-[600px] left-1/2 -translate-x-1/2 ">
+        <div className="absolute xl:block hidden top-[600px] left-1/2 -translate-x-1/2 ">
           <PurpleGradientBlur />
         </div>
         <div className="relative z-50 mt-30 w-full h-full bg-black rounded-2xl overflow-visible">
